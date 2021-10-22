@@ -3,14 +3,27 @@ body {
     margin: 0;
 }
 p {
-    font-size: 14;
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
+
 .conteiner {
-    width: 300px;
+    width: 420px;
 }
 .conteiner-items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.conteiner-items:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+.conteiner-items{
+    margin-bottom: 10px;
+}
+#cifra {
+    color:red;
 }
